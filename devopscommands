@@ -108,7 +108,6 @@
   107  cd ..
   108  ls
   109  cd practiceall
-  110  l
   111  cat devopscommands.txt 
   112  history
   113  history > devopscommands.txt 
