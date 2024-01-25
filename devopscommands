@@ -306,3 +306,222 @@
   306  ls
   307  git branch
   308  history > devopscommands
+5  sudo apt update
+    6  sudo apt install docker-ce docker-ce-cli containerd.io
+    7  sudo systemctl start docker
+    8  sudo systemctl enable docker
+    9  sudo docker --version
+   10  git status
+   11  sudo apt-get install git
+   12  sudo apt update
+   13  git --version
+   14  git clone https://github.com/mudassir-muhammad/git-push-branch-overall-practice.git
+   15  ls
+   16  cd git-push-branch-overall-practice/
+   17  ls 
+   20  git status 
+   21  git add devopscommands 
+   22  git status 
+   23  git commit -m "new comands"
+   24  ls -lah
+   25  cd .
+   26  ls
+   27  ls -lah
+   28  cd ..
+   29  ls -lah
+   30  cd .ssh/
+   31  ls
+   32  ssh-keygen -t rsa -b 4096 -C "muhammadmudassir5555@gmail.com" for ssh  key generation
+   33  ls
+   34  cat id_rsa.pub 
+   35  cd --
+   36  cd home/
+   37  cd /home/
+   38  cd vagrant/
+   39  ls
+   40  cd --
+   41  ls
+   42  cd git-push-branch-overall-practice/
+   43  ls
+   44  vim devopscommands 
+   45  git status
+   46  git add devopscommands 
+   47  git commit -m "comit"
+   48  git push
+   49  cd --
+   50  ls
+   51  rm -fr git-push-branch-overall-practice/
+   52  ls
+   53  git clone git@github.com:mudassir-muhammad/git-push-branch-overall-practice.git
+   54  ls
+   55  cd git-push-branch-overall-practice/
+   56  ls
+   57  cat devopscommands 
+   58  vim devopscommands 
+   59  git add devopscommands 
+   60  git commit -m "new comit commands"
+   61  git push
+   62  git pull
+   63  cat devopscommands 
+   64  vim devopscommands 
+   65  cat devopscommands 
+   66  git add devopscommands 
+   67  git commit -m "new command"
+   68  git status
+   69  git commit
+   70  git commit -m "new command"
+   71  cd .
+   72  ls
+   73  ls -lah
+   74  cd .
+   75  cd ..
+   76  ls -lah
+   77  cd .ssh/
+   78  ls
+   79  ls -lah
+   80  cat id_rsa.pub 
+   81  ls
+   82  clear
+   83  cd ..
+   84  ls
+   85  rm -fr git-push-branch-overall-practice/
+   86  ls
+   87  git clone git@github.com:mudassir-muhammad/git-push-branch-overall-practice.git
+   88  ls
+   89  cd git
+   90  cd git-push-branch-overall-practice/
+   91  ls
+   92  cat devopscommands 
+   93  vim devopscommands 
+   94  git status
+   95  git add .
+   96  git status
+   97  git commit -m "abc"
+after ssh key generation put public key mean .pub key to ssh key
+   98  eval "$(ssh-agent -s)"
+   99  cd --
+  100  eval "$(ssh-agent -s)"
+  101  ssh-add ~/.ssh/id_rsa
+  102  ssh -T git@github.com
+  103  ls
+  104  rm -fr git-push-branch-overall-practice/
+  105  git clone git@github.com:mudassir-muhammad/git-push-branch-overall-practice.git
+  106  cd git-push-branch-overall-practice/
+  107  ls
+  108  git status
+  109  cat devopscommands 
+  110  vim devopscommands 
+  111  git add .
+  112  git status
+  113  git commit -m "new comit"
+  114  ls -lah
+  115  cd ..
+  116  ls -lah
+  117  cd .ssh/
+  118  ls -lah
+  119  cat id_rsa.pub 
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd git-push-branch-overall-practice/
+  124  git comit -m "abc"
+  125  git commit -m "ac"
+  126  cd --
+  127  rm -fr git-push-branch-overall-practice/
+  128  ls -lah
+  129  ssh-keygen -t rsa -b 4096 -C "muhammadmudassir5555@gmail.com"
+  130  ls -lah
+  131  eval "$(ssh-agent -s)"
+  132  ssh-add ~/.ssh/id_rsa
+  133  cd .ssh/
+  134  ls -lah
+  135  cat id_rsa.pub 
+  136  cd ..
+  137  ls
+  138  git clone git@github.com:mudassir-muhammad/git-push-branch-overall-practice.git
+  139  cd git-push-branch-overall-practice/
+  140  git add .
+  141  git commit -m "new comit"
+  142  git config --global user.email "muhammadmudassir5555@gmail.com"
+  143  git commit -m "new "
+  144  git config --global user.name "mudassir.muhammad"
+  145  git commit -m "new"
+  146  ls
+  147  cd --
+  148  rm -fr git-push-branch-overall-practice/
+  149  git clone git@github.com:mudassir-muhammad/git-push-branch-overall-practice.git
+  150  cd git
+  151  cd git-push-branch-overall-practice/
+  152  cat devopscommands 
+  153  vim devopscommands 
+  154  git add .
+  155  git commit 
+  156  git commit -m "new comit"
+  157  git push
+  158  history
+  159  cat devopscommands 
+  160  cd --
+  161  exit
+  162  sudo apt install apache2
+  163  sudo service apache2 status
+  164  netstat -an | grep 80
+  165  sudo service apache2 stop
+  166  netstat -an | grep 80
+  167  sudo service apache2 status
+  168  sudo apt install nginx
+  169  sudo service nginx status
+  170  sudo service apache2 status
+  171  sudo service apache2 start
+  172  sudo service apache2 status
+  173  sudo service nginx start
+  174  systemctl status nginx.service
+  175  ls
+  176  ls -lah
+  177  cd etc
+  178  cd /etc/
+  179  ls
+  180  cd /apache2
+  181  cd /apache2/
+  182  cd apache2/
+  183  ls
+  184  vim ports.conf 
+  185  ls
+  186  sites-enabled/
+  187  cd sites-enabled/
+  188  ls
+  189  vim 000-default.conf 
+  190  sudo service apache2 stop
+  191  sudo service apache2 status
+  192  vim 000-default.conf 
+  193  sudo vim 000-default.conf 
+  194  cd -
+  195  ls
+  196  cd sites-enabled/
+  197  ls
+  198  sudo vim 000-default.conf 
+  199  cd -
+  200  ls
+  201  sudo vim ports.conf 
+  202  sudo service apache start
+  203  sudo service apache2 start
+  204  sudo service apache2 status
+  205  sudo service nginx start
+  206  sudo service nginx status
+  207  ps -aux
+  208  ps -aux | grep apache2
+  209  ps -aux | grep apache
+  210  ps -aux | grep apa
+  211  ps -aux | grep -i "apa*"
+  212  history
+  213  cd --
+  214  history
+  215  touch devopscomands.txt
+  216  ls
+  217  cd git-push-branch-overall-practice/
+  218  ls
+  219  cat devopscommands 
+  220  history
+  221  mv history > devopscommands 
+  222  mv --help
+  223  mv -i history > devopscommands 
+  224  history > devopscommands 
