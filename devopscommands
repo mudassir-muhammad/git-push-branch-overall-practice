@@ -178,3 +178,11 @@ sudo yum update
 sudo yum install httpd
 sudo service httpd start
 sudo service httpd status
+ps -ef
+free -m
+htop
+lsblk
+df -h
+uname
+uptime
+
