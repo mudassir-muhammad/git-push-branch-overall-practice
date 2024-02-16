@@ -525,3 +525,25 @@ after ssh key generation put public key mean .pub key to ssh key
   222  mv --help
   223  mv -i history > devopscommands 
   224  history > devopscommands 
+2  sudo apt install apache2
+    3  sudo yum update -y
+    4  sudo yum install -y httpd
+    5  sudo service httpd start
+    6  sudo chkconfig httpd on
+    7  sudo service httpd status
+    8  netstat -ant
+    9  netstat -ant | grep apache
+   10  netstat -ant | grep apache2
+   11  netstat -ant | grep Apache
+   12  sudo service httpd status
+   13  ss -ant | grep Apache
+   14  ss -ant | grep Apache2
+   15  sudo apt install nginx
+   16  sudo systemctl status apache2
+   17  sudo apt update
+   18  sudo yum update
+   19  sudo yum install httpd
+   20  sudo service httpd start
+   21  sudo service httpd status
+   22  sudo systemctl status httpd.service
+   23  history
