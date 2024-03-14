@@ -185,4 +185,64 @@ lsblk
 df -h
 uname
 uptime
+   69  mkdir additional_volume_ebs
+   70  ls
+   71  df -hT
+   72  df -h
+   73  lsblk
+   74  sudo file -s /dev/xvdf
+   75  sudo mkfs -t xfs /dev/xvdf
+   76  sudo file -s /dev/xvdf
+   77  sudo blkid
+   78  sudo nano /etc/fstab
+   79  sudo vim etc/fstab
+   80  sudo nano /etc/fstab
+   81  lsblk
+   82  ls
+   83  sudo file -s /dev/xvdf
+   84  df -hT
+   85  sudo mount /dev/xvdf/additional_volume_ebs
+   86  blkid
+   87  sudo blkid
+   88  sudo vim /etc/fstab
+   89  sudo mount /dev/xvdf/additional_volume_ebs
+   90  sudo vim /etc/fstab
+   91  sudo mount /dev/xvdf/additional_volume_ebs
+   92  sudo vim /etc/fstab
+   93  sudo mount /dev/xvdf/additional_volume_ebs
+   94  sudo mkfs -t xfs /dev/xvdf
+   95  sudo mount /dev/xvdf/ additional_volume_ebs
+   96  sudo mount /dev/xvdf/additional_volume_ebs
+   97  sudo vim /etc/fstab
+   98  clear
+   99  sudo growpart /dev/xvdf 1
+  100  df -hT
+  101  lsblk
+  102  sudo xfs_growfs -d /
+  103  df -hT
+  104  sudo growpart /dev/xvda 1
+  105  lsblk
+  106  sudo file -s /dev/xvdf
+  107  ls
+  108  sudo mount /dev/xvdf /additional
+  109  sudo mount /dev/xvdf /additional_volume_ebs
+  110  sudo vim /etc/fstab
+  111  sudo mount /dev/xvdf /additional_volume_ebs
+  112  sudo vim /etc/fstab
+  113  sudo mount /dev/xvdf /additional_volume_ebs
+  114  mkdir additional_volume_ebs
+  115  sudo mount /dev/xvdf /additional_volume_ebs
+  116  sudo mkdir /additional_volume_ebs
+  117  sudo mount /dev/xvdf /additional_volume_ebs
+  118  lsblk
+  119  exit
+  120  lsblk
+  121  ls
+  122  cd additional_volume_ebs/
+  123  mkdir file1
+  124  mkdir file2
+  125  ls
+  126  exit
+  127  lsblk
+  128  cd additional_volume_ebs/
 
