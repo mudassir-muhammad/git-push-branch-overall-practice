@@ -244,5 +244,6 @@ uptime
   125  ls
   126  exit
   127  lsblk
-  128  cd additional_volume_ebs/
+  128  cd additional_volume_ebs
+sudo vim etc/fstab
 
